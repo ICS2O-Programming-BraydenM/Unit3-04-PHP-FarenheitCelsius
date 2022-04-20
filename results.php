@@ -1,10 +1,11 @@
 <?php
-// get the length of radius of sphere from the textfields
-$radius = $_POST['radius'];
+// get the degrees in Fahrenheit
+$fahrenheit = floatval($_POST['degrees']);
 
-// calculate the area
-$volume = $radius ** 3 * (4/3) * pi();
-$volume_rounded = number_format($volume, 2);
+// calculate the degrees in Celsius
+$celsius = 5 / 9 * ($fahrenheit - 32);
+$celsius_rounded = number_format($celsius, 2);
+
 ?>
 
-The volume of the sphere is <?php echo "$volume_rounded"; ?> cm<sup>3</sup>.
+The degrees in Celsius would be <?php echo "$celsius_rounded"; ?> <sup>°</sup>.

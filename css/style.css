@@ -5,18 +5,18 @@
 */
 
 body {
-	background-color: rgb(220, 216, 238);
+	background-color: rgb(181, 169, 234);
 }
 
 h1 {
-	background-color: rgb(17, 223, 154);
+	background-color: rgb(172, 143, 188);
 	color: hsl(0, 0%, 0%);
 	padding: 40px;
 	text-align: center;
 }
 
 p {
-	background-color: #f4d6bd;
+	background-color: #a95c1e;
 }
 
 div {
