@@ -1,0 +1,30 @@
+/* Created by: Brayden MacMillan
+* Created on: April 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-03-HTML-VolumeSphere
+*/
+
+body {
+	background-color: rgb(220, 216, 238);
+}
+
+h1 {
+	background-color: rgb(17, 223, 154);
+	color: hsl(0, 0%, 0%);
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	background-color: #f4d6bd;
+}
+
+div {
+  font-weight: bold;
+  color: #5d1436;
+  margin: 5px;
+}
+
+#volume{
+  background-color: #a3acae;
+}
